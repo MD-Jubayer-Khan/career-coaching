@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -8,11 +8,10 @@ const Header = () => {
     // const handleSignOut = () =>{
     //     signOut(auth);
     return (
-         <div>
-
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="info" variant="light" style={{height:'100px'}}>
+         <>
+            <Navbar collapseOnSelect expand="lg" sticky="top" variant="light" style={{height:'100px', backgroundColor:'#e0faff'}}>
                 <Container>
-                    <Navbar.Brand as={Link} to="/" className='text-white'>
+                    <Navbar.Brand as={Link} to="/" className='text-primary'>
                         Career Coach
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -37,7 +36,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-         </div>
+         </>
     );
 };
 

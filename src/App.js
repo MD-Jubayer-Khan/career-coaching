@@ -6,6 +6,7 @@ import Checkout from '../src/pages/Checkout/Checkout';
 import Blogs from '../src/pages/Blogs/Blogs';
 import About from './pages/About/About';
 import NotFound from './pages/shared/NotFound/NotFound';
+import Footer from '../src/pages/shared/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
