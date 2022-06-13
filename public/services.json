@@ -2,21 +2,21 @@
     {
       "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
       "name": "Web Development",
-      "text": "Jimmy S",
+      "text": "Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, ...",
       "price": 699,
       "img": "https://www.webworxtechnology.com/wp-content/uploads/2018/06/web-development.jpg"
     },
     {
         "id": "4b2f-a74d-a77b362d6ead",
         "name": "App Development",
-        "text": "Addidas",
+        "text": "Organized and easy to understand app building tutorials with lots of examples like xml,Python, Java, c++, unity, android studio etc...",
         "price": 799,
         "img": "https://dashwire.com/wp-content/uploads/2022/04/the-complete-guide-to-mobile-app-development-2021-550x275.png"
       },
       {
         "id": "124e13b9-2d54-4b2f",
         "name": "Devops",
-        "text": "Addidas",
+        "text": "Infrastructure automation (like Puppet, Chef, Ansible), Container concepts (LXD, Docker)",
         "price": 1500,
         "img": "https://www.qentelli.com/sites/default/files/styles/insights_cover_846x479_/public/2021-04/Comprehensive%20List%20of%20DevOps%20Tools%202021.png?itok=f1JzPoT3"
       }

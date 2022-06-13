@@ -11,15 +11,15 @@ const Service = (props) => {
     }
     return (
         <div>
-          <Card className='img-fluid mx-4 mt-4' style={{ width: '20rem' }}>
+          <Card className=' mx-4 mt-4' style={{ width: '19rem' }}>
                  <Card.Img className='img-fluid'  variant="top" src={img} />
                  <Card.Body>
-                   <Card.Title>{name}</Card.Title>
+                   <Card.Title className='text-success'>{name}</Card.Title>
                    <Card.Text>
                    {text}
                    </Card.Text>
                    <Card.Text>
-                   {price}
+                   ${price}
                    </Card.Text>
                    <Button onClick={handleCheckoutBtn} variant="primary">Check out now</Button>
                  </Card.Body>
