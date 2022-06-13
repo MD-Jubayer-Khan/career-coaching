@@ -8,6 +8,7 @@ import NotFound from './pages/shared/NotFound/NotFound';
 import Login from './pages/UserAuth/Login/Login';
 import Register from './pages/UserAuth/Register/Register';
 import RequireAuth from './pages/UserAuth/RequireAuth/RequireAuth';
+import Booking from './pages/Checkout/Booking/Booking';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path='/booking' element={<Booking></Booking>}></Route>
         <Route path="/checkout" element={
           <RequireAuth>
             <Checkout></Checkout>

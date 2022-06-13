@@ -1,11 +1,15 @@
 import React from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Checkout = () => {
+  const navigate = useNavigate()
 
     const checkOutCourse = () =>{
+      navigate('/booking')
       toast('welcome')
     }
     return (
