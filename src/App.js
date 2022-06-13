@@ -5,7 +5,6 @@ import Checkout from '../src/pages/Checkout/Checkout';
 import Blogs from '../src/pages/Blogs/Blogs';
 import About from './pages/About/About';
 import NotFound from './pages/shared/NotFound/NotFound';
-import Footer from '../src/pages/shared/Footer/Footer'
 import Login from './pages/UserAuth/Login/Login';
 import Register from './pages/UserAuth/Register/Register';
 import RequireAuth from './pages/UserAuth/RequireAuth/RequireAuth';
@@ -29,7 +28,6 @@ function App() {
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }
